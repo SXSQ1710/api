@@ -1,6 +1,7 @@
-import { QuestionCircleOutlined } from '@ant-design/icons';
+import {QuestionCircleOutlined} from '@ant-design/icons';
 import '@umijs/max';
 import React from 'react';
+
 export type SiderTheme = 'light' | 'dark';
 export const SelectLang = () => {
   return (
@@ -22,7 +23,7 @@ export const Question = () => {
         window.open('https://pro.ant.design/docs/getting-started');
       }}
     >
-      <QuestionCircleOutlined />
+      <QuestionCircleOutlined/>
     </div>
   );
 };
