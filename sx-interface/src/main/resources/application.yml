@@ -1,0 +1,9 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+
+sx-api:
+  client:
+    access-key: 5b45aa77d6e54e8e997d867f35e90ac9
+    secret-key: dd08d221886d4e4bae8250d354c5c2f1

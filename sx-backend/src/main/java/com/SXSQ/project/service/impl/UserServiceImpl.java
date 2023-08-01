@@ -1,5 +1,6 @@
 package com.SXSQ.project.service.impl;
 
+import cn.hutool.core.util.IdUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.SXSQ.project.common.ErrorCode;
@@ -14,6 +15,8 @@ import org.springframework.util.DigestUtils;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+
+import java.util.UUID;
 
 import static com.SXSQ.project.constant.UserConstant.ADMIN_ROLE;
 import static com.SXSQ.project.constant.UserConstant.USER_LOGIN_STATE;
@@ -61,10 +64,15 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
             }
             // 2. 加密
             String encryptPassword = DigestUtils.md5DigestAsHex((SALT + userPassword).getBytes());
-            // 3. 插入数据
+            // 3. 生成accessKey和secretKey
+            String accessKey = IdUtil.simpleUUID();
+            String secretKey = IdUtil.simpleUUID();
+            // 4. 插入数据
             User user = new User();
             user.setUserAccount(userAccount);
             user.setUserPassword(encryptPassword);
+            user.setAccessKey(accessKey);
+            user.setSecretKey(secretKey);
             boolean saveResult = this.save(user);
             if (!saveResult) {
                 throw new BusinessException(ErrorCode.SYSTEM_ERROR, "注册失败，数据库错误");

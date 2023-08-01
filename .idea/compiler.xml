@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sx-backend" />
+        <module name="sx-client-sdk" />
         <module name="sx-interface" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="sx-backend" target="1.8" />
+      <module name="sx-client-sdk" target="8" />
       <module name="sx-interface" target="11" />
       <module name="sxs-interface" target="1.5" />
     </bytecodeTargetLevel>
@@ -20,6 +22,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="sx-backend" options="-parameters" />
+      <module name="sx-client-sdk" options="-parameters" />
       <module name="sx-interface" options="-parameters" />
     </option>
   </component>

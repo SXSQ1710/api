@@ -16,281 +16,50 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7fc9a48-f18b-4de1-871d-7d8b29d7cf85" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_annotations_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_core_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_spring_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_spring_boot_autoconfigure_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_spring_boot_starter_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_spring_ui_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_27_0_1_android.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_83.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_6_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_77_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_77_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_77_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_77_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_77_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_77_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_bean_validators_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_boot_starter_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_data_rest_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_oas_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_webflux_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_webmvc_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_2_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_core_1_5_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_63.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_63.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_63.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_25_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_3_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_2_0_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_data_redis_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-interface/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-interface/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-interface/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-interface/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-interface/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-interface/src/main/java/com/sxsq/sxinterface/SxInterfaceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-interface/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-interface/src/test/java/com/sxsq/sxinterface/SxInterfaceApplicationTests.java" afterDir="false" />
+    <list default="true" id="c7fc9a48-f18b-4de1-871d-7d8b29d7cf85" name="默认的" comment="前端修改">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_8_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-client-sdk/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-client-sdk/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-client-sdk/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-client-sdk/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-client-sdk/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-client-sdk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-client-sdk/src/main/java/com/sxsq/sxclientsdk/SxApiClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-client-sdk/src/main/java/com/sxsq/sxclientsdk/client/SxApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-client-sdk/src/main/java/com/sxsq/sxclientsdk/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-client-sdk/src/main/java/com/sxsq/sxclientsdk/utils/SignUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-client-sdk/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-interface/src/main/java/com/sxsq/sxinterface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-interface/src/main/java/com/sxsq/sxinterface/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-interface/src/main/java/com/sxsq/sxinterface/utils/SignUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-interface/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/doc/db.md" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/doc/db.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/sql/ddl.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/sql/ddl.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/sql/interface_info.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/sql/interface_info.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/MyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/annotation/AuthCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/annotation/AuthCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/aop/AuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/aop/AuthInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/aop/LogInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/aop/LogInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/common/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/common/BaseResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/common/DeleteRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/common/DeleteRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/common/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/common/ErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/common/PageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/common/PageRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/common/ResultUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/common/ResultUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/config/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/config/Knife4jConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/config/Knife4jConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/config/MyBatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/config/MyBatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/constant/CommonConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/constant/CommonConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/constant/UserConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/constant/UserConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/controller/InterfaceInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/controller/InterfaceInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/controller/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/exception/BusinessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/mapper/InterfaceInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/mapper/InterfaceInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/mapper/PostMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/mapper/PostMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/dto/interfaceInfo/InterfaceInfoAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/interfaceInfo/InterfaceInfoAddRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/dto/interfaceInfo/InterfaceInfoQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/interfaceInfo/InterfaceInfoQueryRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/dto/interfaceInfo/InterfaceInfoUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/interfaceInfo/InterfaceInfoUpdateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/dto/post/PostAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/post/PostAddRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/dto/post/PostDoThumbRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/post/PostDoThumbRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/dto/post/PostQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/post/PostQueryRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/dto/post/PostUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/post/PostUpdateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/dto/user/UserAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/user/UserAddRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/dto/user/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/user/UserLoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/dto/user/UserQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/user/UserQueryRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/dto/user/UserRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/user/UserRegisterRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/dto/user/UserUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/user/UserUpdateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/entity/InterfaceInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/entity/InterfaceInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/entity/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/entity/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/enums/PostGenderEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/enums/PostGenderEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/enums/PostReviewStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/enums/PostReviewStatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/vo/PostVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/vo/PostVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/model/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/vo/UserVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/service/InterfaceInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/service/InterfaceInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/service/PostService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/service/impl/InterfaceInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/service/impl/InterfaceInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/service/impl/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/service/impl/PostServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/java/com/SXSQ/project/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/resources/mapper/InterfaceInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/resources/mapper/InterfaceInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/resources/mapper/PostMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/resources/mapper/PostMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-api/src/test/java/com/SXSQ/project/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/test/java/com/SXSQ/project/service/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/config/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/config/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/config/defaultSettings.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/config/defaultSettings.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/config/oneapi.json" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/config/oneapi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/config/proxy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/config/proxy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/config/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/config/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/jest.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/jest.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/jsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/mock/listTableList.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/mock/listTableList.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/mock/notices.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/mock/notices.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/mock/requestRecord.mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/mock/requestRecord.mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/mock/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/mock/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/mock/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/mock/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/public/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/public/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/public/pro_icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/public/pro_icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/public/scripts/loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/public/scripts/loading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/access.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/access.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/components/Footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/components/Footer/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/components/HeaderDropdown/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/components/HeaderDropdown/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/components/RightContent/AvatarDropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/components/RightContent/AvatarDropdown.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/components/RightContent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/components/RightContent/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/global.less" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/global.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/global.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/global.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/pages/404.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/pages/404.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/pages/Admin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/pages/Admin.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/pages/TableList/components/UpdateForm.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/pages/TableList/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/pages/User/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/pages/User/Login/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/pages/User/Login/login.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/pages/User/Login/login.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/pages/Welcome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/pages/Welcome.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/requestConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/requestConfig.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/ant-design-pro/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/ant-design-pro/api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/ant-design-pro/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/ant-design-pro/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/ant-design-pro/login.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/ant-design-pro/login.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/swagger/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/swagger/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/swagger/pet.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/swagger/pet.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/swagger/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/swagger/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/swagger/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/swagger/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/sx-api/basicErrorController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/basicErrorController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/sx-api/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/sx-api/interfaceInfoController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/interfaceInfoController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/sx-api/postController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/postController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/sx-api/userController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/userController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/typings.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/typings.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/tests/setupTests.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/tests/setupTests.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/types/cache/mock/login.mock.cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/types/cache/mock/login.mock.cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-backend/sql/ddl.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/sql/ddl.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sx-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-interface/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sx-client-sdk/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-interface/src/test/java/com/sxsq/sxinterface/SxInterfaceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-interface/src/test/java/com/sxsq/sxinterface/SxInterfaceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -307,6 +76,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -317,7 +87,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sx-backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sx-client-sdk/src/main/java/com/sxsq/sxclientsdk" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -328,6 +98,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34367815" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaide\api\sx-client-sdk\src\main\java\com\sxsq\sxclientsdk" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -335,10 +110,52 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SxInterfaceApplication">
+  <component name="RunManager" selected="JUnit.SxInterfaceApplicationTests.contextLoads">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sxsq.sxinterface.Main" />
+      <module name="sx-interface" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sxsq.sxinterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ddl.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/sx-backend/sql/ddl.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="d29b0680-8469-46e4-a351-c4ff32c690ed" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SxInterfaceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sx-interface" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sxsq.sxinterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sxsq.sxinterface" />
+      <option name="MAIN_CLASS_NAME" value="com.sxsq.sxinterface.SxInterfaceApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sx-backend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.SXSQ.project.MyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SxClientSdkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sx-client-sdk" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sxsq.sxclientsdk.SxClientSdkApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -350,6 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SxInterfaceApplicationTests.contextLoads" />
+        <item itemvalue="应用程序.Main" />
+        <item itemvalue="数据库脚本.ddl.sql" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -365,7 +189,24 @@
       <workItem from="1690806829904" duration="6475000" />
       <workItem from="1690817419228" duration="252000" />
       <workItem from="1690817684331" duration="942000" />
+      <workItem from="1690818665838" duration="563000" />
+      <workItem from="1690889349803" duration="8840000" />
     </task>
+    <task id="LOCAL-00001" summary="前端修改">
+      <created>1690818762139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690818762139</updated>
+    </task>
+    <task id="LOCAL-00002" summary="前端修改">
+      <created>1690818818400</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690818818400</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,12 +238,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="前端修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端修改" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="438" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1690817859072">
+    <state x="438" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1690897766650">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="438" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690817859072" />
+    <state x="438" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690897766650" />
+    <state x="774" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1690903068203">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="774" y="329" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690903068203" />
     <state x="689" y="329" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1690817853351">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -411,46 +258,54 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="616" y="190" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690818367065" />
+    <state x="660" y="186" key="#ddl.sql" timestamp="1690897795523">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="660" y="186" key="#ddl.sql/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690897795523" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1690818634861">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690818634861" />
-    <state x="521" y="303" key="FileChooserDialogImpl" timestamp="1690818234065">
+    <state x="521" y="303" key="FileChooserDialogImpl" timestamp="1690902203826">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="521" y="303" key="FileChooserDialogImpl/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690818234065" />
-    <state width="1293" height="486" key="GridCell.Tab.0.bottom" timestamp="1690818634713">
+    <state x="521" y="303" key="FileChooserDialogImpl/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690902203826" />
+    <state width="1293" height="400" key="GridCell.Tab.0.bottom" timestamp="1690903913176">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="486" key="GridCell.Tab.0.bottom/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690818634713" />
-    <state width="1293" height="486" key="GridCell.Tab.0.center" timestamp="1690818634712">
+    <state width="1293" height="400" key="GridCell.Tab.0.bottom/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690903913176" />
+    <state width="1293" height="400" key="GridCell.Tab.0.center" timestamp="1690903913176">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="486" key="GridCell.Tab.0.center/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690818634712" />
-    <state width="1293" height="486" key="GridCell.Tab.0.left" timestamp="1690818634712">
+    <state width="1293" height="400" key="GridCell.Tab.0.center/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690903913176" />
+    <state width="1293" height="400" key="GridCell.Tab.0.left" timestamp="1690903913176">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="486" key="GridCell.Tab.0.left/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690818634712" />
-    <state width="1293" height="486" key="GridCell.Tab.0.right" timestamp="1690818634713">
+    <state width="1293" height="400" key="GridCell.Tab.0.left/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690903913176" />
+    <state width="1293" height="400" key="GridCell.Tab.0.right" timestamp="1690903913176">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="486" key="GridCell.Tab.0.right/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690818634713" />
-    <state width="1293" height="486" key="GridCell.Tab.1.bottom" timestamp="1690818634713">
+    <state width="1293" height="400" key="GridCell.Tab.0.right/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690903913176" />
+    <state width="1293" height="400" key="GridCell.Tab.1.bottom" timestamp="1690903913176">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="486" key="GridCell.Tab.1.bottom/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690818634713" />
-    <state width="1293" height="486" key="GridCell.Tab.1.center" timestamp="1690818634713">
+    <state width="1293" height="400" key="GridCell.Tab.1.bottom/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690903913176" />
+    <state width="1293" height="400" key="GridCell.Tab.1.center" timestamp="1690903913176">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="486" key="GridCell.Tab.1.center/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690818634713" />
-    <state width="1293" height="486" key="GridCell.Tab.1.left" timestamp="1690818634713">
+    <state width="1293" height="400" key="GridCell.Tab.1.center/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690903913176" />
+    <state width="1293" height="400" key="GridCell.Tab.1.left" timestamp="1690903913176">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="486" key="GridCell.Tab.1.left/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690818634713" />
-    <state width="1293" height="486" key="GridCell.Tab.1.right" timestamp="1690818634713">
+    <state width="1293" height="400" key="GridCell.Tab.1.left/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690903913176" />
+    <state width="1293" height="400" key="GridCell.Tab.1.right" timestamp="1690903913176">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="486" key="GridCell.Tab.1.right/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690818634713" />
+    <state width="1293" height="400" key="GridCell.Tab.1.right/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690903913176" />
+    <state width="152" height="539" key="HiddenNamespacesPopup" timestamp="1690897773788">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="152" height="539" key="HiddenNamespacesPopup/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690897773788" />
     <state x="614" y="157" key="NewModule_or_Project.wizard" timestamp="1690817977862">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -463,17 +318,21 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="809" y="447" key="VCS.ChangelistChooser/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690817478474" />
-    <state x="552" y="269" key="Vcs.Push.Dialog.v2" timestamp="1690723197877">
+    <state x="552" y="269" key="Vcs.Push.Dialog.v2" timestamp="1690818899196">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="269" key="Vcs.Push.Dialog.v2/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690723197877" />
+    <state x="552" y="269" key="Vcs.Push.Dialog.v2/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690818899196" />
     <state x="780" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1690817433303">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="780" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690817433303" />
-    <state x="528" y="131" key="new project wizard" timestamp="1690818529785">
+    <state x="528" y="131" key="new project wizard" timestamp="1690902288054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="528" y="131" key="new project wizard/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690818529785" />
+    <state x="528" y="131" key="new project wizard/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690902288054" />
+    <state x="640" y="138" key="spring file set editor" timestamp="1690902907035">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="640" y="138" key="spring file set editor/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690902907035" />
   </component>
 </project>
