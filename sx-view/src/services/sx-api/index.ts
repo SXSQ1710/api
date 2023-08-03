@@ -6,7 +6,6 @@ import * as basicErrorController from './basicErrorController';
 import * as interfaceInfoController from './interfaceInfoController';
 import * as postController from './postController';
 import * as userController from './userController';
-
 export default {
   basicErrorController,
   interfaceInfoController,

@@ -16,37 +16,33 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7fc9a48-f18b-4de1-871d-7d8b29d7cf85" name="默认的" comment="前端修改">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_8_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-client-sdk/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-client-sdk/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-client-sdk/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-client-sdk/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-client-sdk/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-client-sdk/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-client-sdk/src/main/java/com/sxsq/sxclientsdk/SxApiClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-client-sdk/src/main/java/com/sxsq/sxclientsdk/client/SxApiClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-client-sdk/src/main/java/com/sxsq/sxclientsdk/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-client-sdk/src/main/java/com/sxsq/sxclientsdk/utils/SignUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-client-sdk/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-interface/src/main/java/com/sxsq/sxinterface/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-interface/src/main/java/com/sxsq/sxinterface/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-interface/src/main/java/com/sxsq/sxinterface/utils/SignUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-interface/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="c7fc9a48-f18b-4de1-871d-7d8b29d7cf85" name="默认的" comment="sdk构建">
+      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/common/IdRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/enums/InterfaceInfoStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-view/src/pages/Admin/InterfaceInfo/components/CreateModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-view/src/pages/Admin/InterfaceInfo/components/UpdateModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-view/src/pages/Admin/InterfaceInfo/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-view/src/pages/Index/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sx-backend/sql/ddl.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/sql/ddl.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sx-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-interface/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sx-client-sdk/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-interface/src/test/java/com/sxsq/sxinterface/SxInterfaceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-interface/src/test/java/com/sxsq/sxinterface/SxInterfaceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/controller/InterfaceInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/controller/InterfaceInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-view/config/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/config/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-view/src/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-view/src/components/RightContent/AvatarDropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/components/RightContent/AvatarDropdown.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-view/src/pages/InterfaceInfo/components/CreateModal.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-view/src/pages/InterfaceInfo/components/UpdateModal.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-view/src/pages/InterfaceInfo/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-view/src/pages/User/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/pages/User/Login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-view/src/pages/Welcome.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-view/src/services/sx-api/basicErrorController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/basicErrorController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-view/src/services/sx-api/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-view/src/services/sx-api/interfaceInfoController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/interfaceInfoController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-view/src/services/sx-api/postController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/postController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-view/src/services/sx-api/typings.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/typings.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-view/src/services/sx-api/userController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/userController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-view/src/typings.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/typings.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,8 +93,13 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34367815" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.SXSQ.project.model.enums" />
+      <recent name="com.SXSQ.project.common" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\javaide\api\sx-client-sdk\src\main\java\com\sxsq\sxclientsdk" />
     </key>
@@ -110,7 +111,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SxInterfaceApplicationTests.contextLoads">
+  <component name="RunManager" selected="Spring Boot.MyApplication">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sxsq.sxinterface.Main" />
       <module name="sx-interface" />
@@ -153,13 +154,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SxClientSdkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="sx-client-sdk" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sxsq.sxclientsdk.SxClientSdkApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SxInterfaceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sx-interface" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sxsq.sxinterface.SxInterfaceApplication" />
@@ -167,6 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.SxInterfaceApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.MyApplication" />
+      <item itemvalue="Spring Boot.SxInterfaceApplication" />
+      <item itemvalue="应用程序.Main" />
+      <item itemvalue="数据库脚本.ddl.sql" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SxInterfaceApplicationTests.contextLoads" />
@@ -190,7 +191,9 @@
       <workItem from="1690817419228" duration="252000" />
       <workItem from="1690817684331" duration="942000" />
       <workItem from="1690818665838" duration="563000" />
-      <workItem from="1690889349803" duration="8840000" />
+      <workItem from="1690889349803" duration="10131000" />
+      <workItem from="1690979284035" duration="8039000" />
+      <workItem from="1691067185214" duration="6058000" />
     </task>
     <task id="LOCAL-00001" summary="前端修改">
       <created>1690818762139</created>
@@ -206,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690818818400</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sdk构建">
+      <created>1690904196613</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690904196613</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,13 +249,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="前端修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="前端修改" />
+    <MESSAGE value="sdk构建" />
+    <option name="LAST_COMMIT_MESSAGE" value="sdk构建" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="438" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1690897766650">
+    <state x="438" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1691067619833">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="438" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690897766650" />
+    <state x="438" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691067619833" />
     <state x="774" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1690903068203">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -270,62 +281,70 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="521" y="303" key="FileChooserDialogImpl/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690902203826" />
-    <state width="1293" height="400" key="GridCell.Tab.0.bottom" timestamp="1690903913176">
+    <state width="1293" height="580" key="GridCell.Tab.0.bottom" timestamp="1691072924644">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="400" key="GridCell.Tab.0.bottom/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690903913176" />
-    <state width="1293" height="400" key="GridCell.Tab.0.center" timestamp="1690903913176">
+    <state width="1293" height="580" key="GridCell.Tab.0.bottom/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691072924644" />
+    <state width="1293" height="580" key="GridCell.Tab.0.center" timestamp="1691072924644">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="400" key="GridCell.Tab.0.center/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690903913176" />
-    <state width="1293" height="400" key="GridCell.Tab.0.left" timestamp="1690903913176">
+    <state width="1293" height="580" key="GridCell.Tab.0.center/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691072924644" />
+    <state width="1293" height="580" key="GridCell.Tab.0.left" timestamp="1691072924644">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="400" key="GridCell.Tab.0.left/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690903913176" />
-    <state width="1293" height="400" key="GridCell.Tab.0.right" timestamp="1690903913176">
+    <state width="1293" height="580" key="GridCell.Tab.0.left/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691072924644" />
+    <state width="1293" height="580" key="GridCell.Tab.0.right" timestamp="1691072924644">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="400" key="GridCell.Tab.0.right/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690903913176" />
-    <state width="1293" height="400" key="GridCell.Tab.1.bottom" timestamp="1690903913176">
+    <state width="1293" height="580" key="GridCell.Tab.0.right/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691072924644" />
+    <state width="1293" height="580" key="GridCell.Tab.1.bottom" timestamp="1691072924645">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="400" key="GridCell.Tab.1.bottom/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690903913176" />
-    <state width="1293" height="400" key="GridCell.Tab.1.center" timestamp="1690903913176">
+    <state width="1293" height="580" key="GridCell.Tab.1.bottom/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691072924645" />
+    <state width="1293" height="580" key="GridCell.Tab.1.center" timestamp="1691072924644">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="400" key="GridCell.Tab.1.center/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690903913176" />
-    <state width="1293" height="400" key="GridCell.Tab.1.left" timestamp="1690903913176">
+    <state width="1293" height="580" key="GridCell.Tab.1.center/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691072924644" />
+    <state width="1293" height="580" key="GridCell.Tab.1.left" timestamp="1691072924644">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="400" key="GridCell.Tab.1.left/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690903913176" />
-    <state width="1293" height="400" key="GridCell.Tab.1.right" timestamp="1690903913176">
+    <state width="1293" height="580" key="GridCell.Tab.1.left/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691072924644" />
+    <state width="1293" height="580" key="GridCell.Tab.1.right" timestamp="1691072924645">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="400" key="GridCell.Tab.1.right/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690903913176" />
-    <state width="152" height="539" key="HiddenNamespacesPopup" timestamp="1690897773788">
+    <state width="1293" height="580" key="GridCell.Tab.1.right/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691072924645" />
+    <state width="152" height="539" key="HiddenNamespacesPopup" timestamp="1691067631024">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="152" height="539" key="HiddenNamespacesPopup/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690897773788" />
+    <state width="152" height="539" key="HiddenNamespacesPopup/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691067631024" />
+    <state x="540" y="274" key="IDE.errors.dialog" timestamp="1690981167922">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="540" y="274" key="IDE.errors.dialog/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690981167922" />
     <state x="614" y="157" key="NewModule_or_Project.wizard" timestamp="1690817977862">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="614" y="157" key="NewModule_or_Project.wizard/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690817977862" />
-    <state x="440" y="114" key="SettingsEditor" timestamp="1690818601018">
+    <state x="335" y="180" key="SettingsEditor" timestamp="1690981561614">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="440" y="114" key="SettingsEditor/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690818601018" />
+    <state x="335" y="180" key="SettingsEditor/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690981561614" />
     <state x="809" y="447" key="VCS.ChangelistChooser" timestamp="1690817478474">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="809" y="447" key="VCS.ChangelistChooser/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690817478474" />
-    <state x="552" y="269" key="Vcs.Push.Dialog.v2" timestamp="1690818899196">
+    <state x="552" y="269" key="Vcs.Push.Dialog.v2" timestamp="1690981568028">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="269" key="Vcs.Push.Dialog.v2/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690818899196" />
+    <state x="552" y="269" key="Vcs.Push.Dialog.v2/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690981568028" />
     <state x="780" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1690817433303">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="780" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1690817433303" />
+    <state x="662" y="256" width="595" height="568" key="find.popup" timestamp="1691070785849">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="662" y="256" width="595" height="568" key="find.popup/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691070785849" />
     <state x="528" y="131" key="new project wizard" timestamp="1690902288054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

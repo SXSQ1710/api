@@ -1,16 +1,16 @@
 import Footer from '@/components/Footer';
-import {Question} from '@/components/RightContent';
-import {LinkOutlined} from '@ant-design/icons';
+import { Question } from '@/components/RightContent';
+import { LinkOutlined } from '@ant-design/icons';
 // import type { Settings as LayoutSettings } from '@ant-design/pro-components';
-import {SettingDrawer} from '@ant-design/pro-components';
-import type {RunTimeLayoutConfig} from '@umijs/max';
-import {history, Link} from '@umijs/max';
+import { SettingDrawer } from '@ant-design/pro-components';
+import type { RunTimeLayoutConfig } from '@umijs/max';
+import { history, Link } from '@umijs/max';
 // import defaultSettings from '../config/defaultSettings';
-import {requestConfig} from './requestConfig';
+import { requestConfig } from './requestConfig';
 // import { currentUser as queryCurrentUser } from './services/ant-design-pro/api';
 import React from 'react';
-import {AvatarDropdown, AvatarName} from './components/RightContent/AvatarDropdown';
-import {getLoginUserUsingGET} from './services/sx-api/userController';
+import { AvatarDropdown, AvatarName } from './components/RightContent/AvatarDropdown';
+import { getLoginUserUsingGET } from './services/sx-api/userController';
 
 const isDev = process.env.NODE_ENV === 'development';
 const loginPath = '/user/login';
@@ -19,28 +19,33 @@ const loginPath = '/user/login';
  * @see  https://umijs.org/zh-CN/plugins/plugin-initial-state
  * */
 export async function getInitialState(): Promise<InitialState> {
-  // 当页面首次加载时，获取要全局保存的信息，比如用户登录信息
+  // 当页面首次加载时，获取要全局保存的数据，比如用户登录信息
   const state: InitialState = {
+    // 初始化登录用户的状态，初始值设为undefined
     loginUser: undefined,
   }
   try {
+    // 调用getLoginUserUsingGET()函数，尝试获取当前已经登录的用户信息
     const res = await getLoginUserUsingGET();
+    // 如果从后端获取的数据不为空，就把获取到的用户数据赋值给state.loginUser
     if (res.data) {
       state.loginUser = res.data;
     }
+    // 如果在获取用户信息的过程中发生错误，就把页面重定向到登录页面
   } catch (error) {
     history.push(loginPath);
   }
+  // 返回修改后的状态
   return state;
 }
 
 // ProLayout 支持的api https://procomponents.ant.design/components/layout
-export const layout: RunTimeLayoutConfig = ({initialState, setInitialState}) => {
+export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) => {
   return {
-    actionsRender: () => [<Question key="doc"/>],
+    actionsRender: () => [<Question key="doc" />],
     avatarProps: {
-      src: initialState?.loginUser?.userName,
-      title: <AvatarName/>,
+      src: initialState?.loginUser?.userAvatar,
+      title: <AvatarName />,
       render: (_, avatarChildren) => {
         return <AvatarDropdown>{avatarChildren}</AvatarDropdown>;
       },
@@ -48,9 +53,9 @@ export const layout: RunTimeLayoutConfig = ({initialState, setInitialState}) => 
     waterMarkProps: {
       content: initialState?.loginUser?.userName,
     },
-    footerRender: () => <Footer/>,
+    footerRender: () => <Footer />,
     onPageChange: () => {
-      const {location} = history;
+      const { location } = history;
       // 如果没有登录，重定向到 login
       if (!initialState?.loginUser && location.pathname !== loginPath) {
         history.push(loginPath);
@@ -79,7 +84,7 @@ export const layout: RunTimeLayoutConfig = ({initialState, setInitialState}) => 
     links: isDev
       ? [
         <Link key="openapi" to="/umi/plugin/openapi" target="_blank">
-          <LinkOutlined/>
+          <LinkOutlined />
           <span>OpenAPI 文档</span>
         </Link>,
       ]

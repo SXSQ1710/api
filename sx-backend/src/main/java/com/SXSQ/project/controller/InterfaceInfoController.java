@@ -1,10 +1,7 @@
 package com.SXSQ.project.controller;
 
 import com.SXSQ.project.annotation.AuthCheck;
-import com.SXSQ.project.common.BaseResponse;
-import com.SXSQ.project.common.DeleteRequest;
-import com.SXSQ.project.common.ErrorCode;
-import com.SXSQ.project.common.ResultUtils;
+import com.SXSQ.project.common.*;
 import com.SXSQ.project.constant.CommonConstant;
 import com.SXSQ.project.exception.BusinessException;
 import com.SXSQ.project.model.dto.interfaceInfo.InterfaceInfoAddRequest;
@@ -12,6 +9,7 @@ import com.SXSQ.project.model.dto.interfaceInfo.InterfaceInfoQueryRequest;
 import com.SXSQ.project.model.dto.interfaceInfo.InterfaceInfoUpdateRequest;
 import com.SXSQ.project.model.entity.InterfaceInfo;
 import com.SXSQ.project.model.entity.User;
+import com.SXSQ.project.model.enums.InterfaceInfoStatusEnum;
 import com.SXSQ.project.service.InterfaceInfoService;
 import com.SXSQ.project.service.UserService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
@@ -196,4 +194,41 @@ public class InterfaceInfoController {
 
     // endregion
 
+    @AuthCheck(mustRole = "admin")
+    @PostMapping("/online")
+    public BaseResponse<Boolean> onlineInterface(@RequestBody IdRequest idRequest, HttpServletRequest request){
+        if(idRequest == null || idRequest.getId() <= 0){
+            throw new BusinessException(ErrorCode.NOT_FOUND_ERROR);
+        }
+        Long id = idRequest.getId();
+        if(interfaceInfoService.getById(id) == null){
+            throw new BusinessException(ErrorCode.NOT_FOUND_ERROR);
+        }
+        // TODO 检测接口是否可以调用
+
+        InterfaceInfo interfaceInfo = new InterfaceInfo();
+        interfaceInfo.setId(id);
+        interfaceInfo.setStatus(InterfaceInfoStatusEnum.ONLINE.getValue());
+        boolean update = interfaceInfoService.updateById(interfaceInfo);
+        return ResultUtils.success(update);
+    }
+
+    @AuthCheck(mustRole = "admin")
+    @PostMapping("/offline")
+    public BaseResponse<Boolean> offlineInterface(@RequestBody IdRequest idRequest, HttpServletRequest request){
+        if(idRequest == null || idRequest.getId() <= 0){
+            throw new BusinessException(ErrorCode.NOT_FOUND_ERROR);
+        }
+        Long id = idRequest.getId();
+        if(interfaceInfoService.getById(id) == null){
+            throw new BusinessException(ErrorCode.NOT_FOUND_ERROR);
+        }
+        // TODO 检测接口是否可以调用
+
+        InterfaceInfo interfaceInfo = new InterfaceInfo();
+        interfaceInfo.setId(id);
+        interfaceInfo.setStatus(InterfaceInfoStatusEnum.OFFLINE.getValue());
+        boolean update = interfaceInfoService.updateById(interfaceInfo);
+        return ResultUtils.success(update);
+    }
 }
