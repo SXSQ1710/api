@@ -4,9 +4,12 @@ spring:
   # DataSource Config
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://121.41.59.165:2206/api?useSSL=false&amp&serverTimezone=UTC&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true
-    username: api
-    password: XiAhKTF2F6AtYn78
+#    url: jdbc:mysql://121.41.59.165:2206/api?useSSL=false&amp&serverTimezone=UTC&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true
+#    username: api
+#    password: XiAhKTF2F6AtYn78
+    url: jdbc:mysql://localhost:3306/api?useSSL=false&amp&serverTimezone=UTC&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true
+    username: root
+    password: 13824101958
   mvc:
     pathmatch:
       matching-strategy: ANT_PATH_MATCHER

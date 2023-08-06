@@ -5,6 +5,7 @@ import com.SXSQ.project.common.*;
 import com.SXSQ.project.constant.CommonConstant;
 import com.SXSQ.project.exception.BusinessException;
 import com.SXSQ.project.model.dto.interfaceInfo.InterfaceInfoAddRequest;
+import com.SXSQ.project.model.dto.interfaceInfo.InterfaceInfoInvokeRequest;
 import com.SXSQ.project.model.dto.interfaceInfo.InterfaceInfoQueryRequest;
 import com.SXSQ.project.model.dto.interfaceInfo.InterfaceInfoUpdateRequest;
 import com.SXSQ.project.model.entity.InterfaceInfo;
@@ -194,6 +195,13 @@ public class InterfaceInfoController {
 
     // endregion
 
+    /**
+     * 接口上线
+     *
+     * @param idRequest
+     * @param request
+     * @return
+     */
     @AuthCheck(mustRole = "admin")
     @PostMapping("/online")
     public BaseResponse<Boolean> onlineInterface(@RequestBody IdRequest idRequest, HttpServletRequest request){
@@ -213,6 +221,13 @@ public class InterfaceInfoController {
         return ResultUtils.success(update);
     }
 
+    /**
+     * 接口下线
+     *
+     * @param idRequest
+     * @param request
+     * @return
+     */
     @AuthCheck(mustRole = "admin")
     @PostMapping("/offline")
     public BaseResponse<Boolean> offlineInterface(@RequestBody IdRequest idRequest, HttpServletRequest request){
@@ -230,5 +245,31 @@ public class InterfaceInfoController {
         interfaceInfo.setStatus(InterfaceInfoStatusEnum.OFFLINE.getValue());
         boolean update = interfaceInfoService.updateById(interfaceInfo);
         return ResultUtils.success(update);
+    }
+
+    /**
+     *
+     * @param interfaceInfoInvokeRequest
+     * @param request
+     * @return
+     */
+    @AuthCheck(mustRole = "admin")
+    @PostMapping("/invoke")
+    public BaseResponse<Boolean> invokeInterface(@RequestBody InterfaceInfoInvokeRequest interfaceInfoInvokeRequest, HttpServletRequest request){
+        if(interfaceInfoInvokeRequest == null || interfaceInfoInvokeRequest.getId() <= 0){
+            throw new BusinessException(ErrorCode.PARAMS_ERROR);
+        }
+        Long id = interfaceInfoInvokeRequest.getId();
+        // 判断接口是否存在
+        InterfaceInfo interfaceInfo = interfaceInfoService.getById(id);
+        if(interfaceInfo == null){
+            throw new BusinessException(ErrorCode.NOT_FOUND_ERROR);
+        }
+        // 判读接口是否开启
+        if(interfaceInfo.getStatus() == InterfaceInfoStatusEnum.OFFLINE.getValue()){
+            throw new BusinessException(ErrorCode.PARAMS_ERROR, "接口已关闭");
+        }
+
+        return ResultUtils.success(true);
     }
 }
