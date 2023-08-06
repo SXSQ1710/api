@@ -15,6 +15,8 @@ import com.SXSQ.project.service.InterfaceInfoService;
 import com.SXSQ.project.service.UserService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.google.gson.Gson;
+import com.sxsq.sxclientsdk.client.SxApiClient;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
@@ -39,6 +41,9 @@ public class InterfaceInfoController {
 
     @Resource
     private UserService userService;
+
+    @Resource
+    private SxApiClient sxApiClient;
 
     // region 增删改查
 
@@ -253,13 +258,13 @@ public class InterfaceInfoController {
      * @param request
      * @return
      */
-    @AuthCheck(mustRole = "admin")
     @PostMapping("/invoke")
-    public BaseResponse<Boolean> invokeInterface(@RequestBody InterfaceInfoInvokeRequest interfaceInfoInvokeRequest, HttpServletRequest request){
+    public BaseResponse<Object> invokeInterface(@RequestBody InterfaceInfoInvokeRequest interfaceInfoInvokeRequest, HttpServletRequest request){
         if(interfaceInfoInvokeRequest == null || interfaceInfoInvokeRequest.getId() <= 0){
             throw new BusinessException(ErrorCode.PARAMS_ERROR);
         }
         Long id = interfaceInfoInvokeRequest.getId();
+        String userRequestParams = interfaceInfoInvokeRequest.getUserRequestParams();
         // 判断接口是否存在
         InterfaceInfo interfaceInfo = interfaceInfoService.getById(id);
         if(interfaceInfo == null){
@@ -269,7 +274,17 @@ public class InterfaceInfoController {
         if(interfaceInfo.getStatus() == InterfaceInfoStatusEnum.OFFLINE.getValue()){
             throw new BusinessException(ErrorCode.PARAMS_ERROR, "接口已关闭");
         }
-
-        return ResultUtils.success(true);
+        User loginUser = userService.getLoginUser(request);
+        String accessKey = loginUser.getAccessKey();
+        String secretKey = loginUser.getSecretKey();
+        Gson gson = new Gson();
+        SxApiClient sxApiClient = new SxApiClient(accessKey, secretKey);
+        System.out.println(userRequestParams);
+        System.out.println("================================");
+        com.sxsq.sxclientsdk.model.User user = gson.fromJson(userRequestParams, com.sxsq.sxclientsdk.model.User.class);
+        System.out.println(user.getUsername());
+        System.out.println("================================");
+        String usernameByPost = sxApiClient.getUsernameByPost(user);
+        return ResultUtils.success(usernameByPost);
     }
 }

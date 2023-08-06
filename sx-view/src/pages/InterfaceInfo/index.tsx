@@ -1,6 +1,7 @@
-import { getInterfaceInfoByIdUsingGET } from '@/services/sx-api/interfaceInfoController';
+import { getInterfaceInfoByIdUsingGET, invokeInterfaceUsingPOST } from '@/services/sx-api/interfaceInfoController';
 import { PageContainer, ProCard, ProDescriptions, ProForm, ProFormTextArea } from '@ant-design/pro-components';
 import { Button, Divider, Form, message } from 'antd';
+import { values } from 'lodash';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'umi';
 
@@ -13,6 +14,8 @@ import { useParams } from 'umi';
 const Index: React.FC = () => {
   // const [loading, setLoading] = useState(false);
   const [data, setData] = useState<API.InterfaceInfo>();
+  const [invokeRes, setInvokeRes] = useState<any>();
+  const [invokeLoading, setInvokeLoading] = useState(false);
   const params = useParams();
 
   const loadData = async (id: number) => {
@@ -34,6 +37,25 @@ const Index: React.FC = () => {
   useEffect(() => {
     loadData(Number(params.id));
   }, [])
+
+  const onFinish = async (values: any) => {
+    if (!params.id) {
+      message.error('参数不存在');
+    }
+
+    try {
+      setInvokeLoading(true);
+      const res = await invokeInterfaceUsingPOST({
+        id: params.id,
+        ...values,
+      });
+      message.success('操作成功');
+      setInvokeRes(res.data);
+    } catch (error: any) {
+      message.error('操作失败' + error.message);
+    }
+    setInvokeLoading(false);
+  }
 
   return (
     <PageContainer title='接口详情'>
@@ -73,12 +95,12 @@ const Index: React.FC = () => {
               },
             },
           }}
-          onFinish={async (values) => console.log(values)}
+          onFinish={onFinish}
         >
           <Form.Item>
             <ProFormTextArea
               colProps={{ span: 24 }}
-              name="requestParams"
+              name="userRequestParams"
               label="请求参数"
             />
           </Form.Item>
@@ -88,8 +110,8 @@ const Index: React.FC = () => {
         </ProForm>
       </ProCard>
       <Divider />
-      <ProCard colSpan="calc(100% - 580px)" title='放回结果'>
-
+      <ProCard colSpan="calc(100% - 580px)" title='调用结果' loading={invokeLoading}>
+        {invokeRes}
       </ProCard>
     </PageContainer>
   );

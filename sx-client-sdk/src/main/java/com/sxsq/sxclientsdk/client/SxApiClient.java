@@ -25,6 +25,16 @@ public class SxApiClient {
 
     private String secretKey;
 
+    public SxApiClient(String accessKey, String secretKey) {
+        this.accessKey = accessKey;
+        this.secretKey = secretKey;
+    }
+
+    public SxApiClient() {
+
+    }
+
+
     public Map<String, String> getHeadMap(String body) {
         Map<String, String> hashMap = new HashMap<>();
         hashMap.put("accessKey", accessKey);
