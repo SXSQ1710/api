@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sx-gateway" />
         <module name="sx-backend" />
         <module name="sx-client-sdk" />
         <module name="sx-interface" />
@@ -20,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="sx-backend" options="-parameters" />
       <module name="sx-client-sdk" options="-parameters" />
+      <module name="sx-gateway" options="-parameters" />
       <module name="sx-interface" options="-parameters" />
     </option>
   </component>

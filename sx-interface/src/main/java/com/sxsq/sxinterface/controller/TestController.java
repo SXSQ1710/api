@@ -28,4 +28,9 @@ public class TestController {
         }
         return "用户是："+ user.getUsername();
     }
+
+    @GetMapping("/user/{name}")
+    public String getUserNameByGet(@PathVariable("name") String name, HttpServletRequest request){
+        return "用户是："+ name;
+    }
 }
