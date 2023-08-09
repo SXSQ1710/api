@@ -13,6 +13,7 @@ export default [
     access: 'canAdmin',
     routes: [
       {name: '接口管理', icon: 'table', path: '/admin/interface', component: './Admin/InterfaceInfo'},
+      {name: '黑白名单管理', icon: 'table', path: '/admin/blackWhiteList', component: './Admin/BlackWhiteList'},
       // { path: '/admin/sub-page', name: '二级管理页', component: './Admin' },
     ],
   },

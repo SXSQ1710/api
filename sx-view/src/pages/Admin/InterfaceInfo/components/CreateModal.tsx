@@ -15,7 +15,7 @@ export type props = {
 const CreateModal: React.FC<props> = (props) => {
   const {colums, visible, onCancel, onSubmit} = props
   return (
-    <Modal open={visible} onCancel={() => onCancel?.()}>
+    <Modal open={visible} footer={null} onCancel={() => onCancel?.()}>
       <ProTable<API.InterfaceInfo> type='form' columns={colums} onSubmit={async (value) => {
         onSubmit?.(value)
       }}/>

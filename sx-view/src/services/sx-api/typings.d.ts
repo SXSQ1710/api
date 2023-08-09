@@ -23,6 +23,24 @@ declare namespace API {
     message?: string;
   };
 
+  type BaseResponseListSystemBlacklist = {
+    code?: number;
+    data?: SystemBlacklist[];
+    message?: string;
+  };
+
+  type BaseResponseListSystemWhitelist = {
+    code?: number;
+    data?: SystemWhitelist[];
+    message?: string;
+  };
+
+  type BaseResponseListUserInterfaceInfo = {
+    code?: number;
+    data?: UserInterfaceInfo[];
+    message?: string;
+  };
+
   type BaseResponseListUserVO = {
     code?: number;
     data?: UserVO[];
@@ -53,6 +71,24 @@ declare namespace API {
     message?: string;
   };
 
+  type BaseResponsePageSystemBlacklist = {
+    code?: number;
+    data?: PageSystemBlacklist;
+    message?: string;
+  };
+
+  type BaseResponsePageSystemWhitelist = {
+    code?: number;
+    data?: PageSystemWhitelist;
+    message?: string;
+  };
+
+  type BaseResponsePageUserInterfaceInfo = {
+    code?: number;
+    data?: PageUserInterfaceInfo;
+    message?: string;
+  };
+
   type BaseResponsePageUserVO = {
     code?: number;
     data?: PageUserVO;
@@ -65,9 +101,27 @@ declare namespace API {
     message?: string;
   };
 
+  type BaseResponseSystemBlacklist = {
+    code?: number;
+    data?: SystemBlacklist;
+    message?: string;
+  };
+
+  type BaseResponseSystemWhitelist = {
+    code?: number;
+    data?: SystemWhitelist;
+    message?: string;
+  };
+
   type BaseResponseUser = {
     code?: number;
     data?: User;
+    message?: string;
+  };
+
+  type BaseResponseUserInterfaceInfo = {
+    code?: number;
+    data?: UserInterfaceInfo;
     message?: string;
   };
 
@@ -77,7 +131,21 @@ declare namespace API {
     message?: string;
   };
 
+  type BlackListAddRequest = {
+    blackIp?: string;
+  };
+
+  type BlackListUpdateRequest = {
+    blackIp?: string;
+    id?: number;
+  };
+
   type DeleteRequest = {
+    id?: number;
+  };
+
+  type getBlackListByIdUsingGETParams = {
+    /** id */
     id?: number;
   };
 
@@ -92,6 +160,16 @@ declare namespace API {
   };
 
   type getUserByIdUsingGETParams = {
+    /** id */
+    id?: number;
+  };
+
+  type getUserInterfaceInfoByIdUsingGETParams = {
+    /** id */
+    id?: number;
+  };
+
+  type getWhiteListByIdUsingGETParams = {
     /** id */
     id?: number;
   };
@@ -141,6 +219,22 @@ declare namespace API {
     responseHeader?: string;
     status?: number;
     url?: string;
+  };
+
+  type listBlackListByPageUsingGETParams = {
+    blackIp?: string;
+    current?: number;
+    pageSize?: number;
+    sortField?: string;
+    sortOrder?: string;
+  };
+
+  type listBlackListUsingGETParams = {
+    blackIp?: string;
+    current?: number;
+    pageSize?: number;
+    sortField?: string;
+    sortOrder?: string;
   };
 
   type listInterfaceInfoByPageUsingGETParams = {
@@ -224,6 +318,32 @@ declare namespace API {
     userRole?: string;
   };
 
+  type listUserInterfaceInfoByPageUsingGETParams = {
+    current?: number;
+    id?: number;
+    interfaceInfoId?: number;
+    leftNum?: number;
+    pageSize?: number;
+    sortField?: string;
+    sortOrder?: string;
+    status?: number;
+    totalNum?: number;
+    userId?: number;
+  };
+
+  type listUserInterfaceInfoUsingGETParams = {
+    current?: number;
+    id?: number;
+    interfaceInfoId?: number;
+    leftNum?: number;
+    pageSize?: number;
+    sortField?: string;
+    sortOrder?: string;
+    status?: number;
+    totalNum?: number;
+    userId?: number;
+  };
+
   type listUserUsingGETParams = {
     createTime?: string;
     current?: number;
@@ -237,6 +357,22 @@ declare namespace API {
     userAvatar?: string;
     userName?: string;
     userRole?: string;
+  };
+
+  type listWhiteListByPageUsingGETParams = {
+    current?: number;
+    pageSize?: number;
+    sortField?: string;
+    sortOrder?: string;
+    whiteIp?: string;
+  };
+
+  type listWhiteListUsingGETParams = {
+    current?: number;
+    pageSize?: number;
+    sortField?: string;
+    sortOrder?: string;
+    whiteIp?: string;
   };
 
   type ModelAndView = {
@@ -348,6 +484,45 @@ declare namespace API {
     total?: number;
   };
 
+  type PageSystemBlacklist = {
+    countId?: string;
+    current?: number;
+    maxLimit?: number;
+    optimizeCountSql?: boolean;
+    orders?: OrderItem[];
+    pages?: number;
+    records?: SystemBlacklist[];
+    searchCount?: boolean;
+    size?: number;
+    total?: number;
+  };
+
+  type PageSystemWhitelist = {
+    countId?: string;
+    current?: number;
+    maxLimit?: number;
+    optimizeCountSql?: boolean;
+    orders?: OrderItem[];
+    pages?: number;
+    records?: SystemWhitelist[];
+    searchCount?: boolean;
+    size?: number;
+    total?: number;
+  };
+
+  type PageUserInterfaceInfo = {
+    countId?: string;
+    current?: number;
+    maxLimit?: number;
+    optimizeCountSql?: boolean;
+    orders?: OrderItem[];
+    pages?: number;
+    records?: UserInterfaceInfo[];
+    searchCount?: boolean;
+    size?: number;
+    total?: number;
+  };
+
   type PageUserVO = {
     countId?: string;
     current?: number;
@@ -409,6 +584,22 @@ declare namespace API {
     reviewStatus?: number;
   };
 
+  type SystemBlacklist = {
+    blackIp?: string;
+    createTime?: string;
+    id?: number;
+    isDelete?: number;
+    updateTime?: string;
+  };
+
+  type SystemWhitelist = {
+    createTime?: string;
+    id?: number;
+    isDelete?: number;
+    updateTime?: string;
+    whiteIp?: string;
+  };
+
   type User = {
     accessKey?: string;
     createTime?: string;
@@ -431,6 +622,32 @@ declare namespace API {
     userName?: string;
     userPassword?: string;
     userRole?: string;
+  };
+
+  type UserInterfaceInfo = {
+    createTime?: string;
+    id?: number;
+    interfaceInfoId?: number;
+    isDelete?: string;
+    leftNum?: number;
+    status?: number;
+    totalNum?: number;
+    updateTime?: string;
+    userId?: number;
+  };
+
+  type UserInterfaceInfoAddRequest = {
+    interfaceInfoId?: number;
+    leftNum?: number;
+    totalNum?: number;
+    userId?: number;
+  };
+
+  type UserInterfaceInfoUpdateRequest = {
+    id?: number;
+    leftNum?: number;
+    status?: number;
+    totalNum?: number;
   };
 
   type UserLoginRequest = {
@@ -467,5 +684,14 @@ declare namespace API {
 
   type View = {
     contentType?: string;
+  };
+
+  type WhiteListAddRequest = {
+    whiteIp?: string;
+  };
+
+  type WhiteListUpdateRequest = {
+    id?: number;
+    whiteIp?: string;
   };
 }

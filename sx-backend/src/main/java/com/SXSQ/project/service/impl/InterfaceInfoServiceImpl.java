@@ -19,7 +19,11 @@ import java.util.Date;
  *
  */
 @Service
-public class InterfaceInfoServiceImpl extends ServiceImpl<InterfaceInfoMapper, InterfaceInfo>
+public class
+
+
+
+InterfaceInfoServiceImpl extends ServiceImpl<InterfaceInfoMapper, InterfaceInfo>
         implements InterfaceInfoService {
 
     @Override

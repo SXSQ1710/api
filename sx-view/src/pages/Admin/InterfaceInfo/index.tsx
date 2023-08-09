@@ -328,12 +328,13 @@ const TableList: React.FC = () => {
 			],
 		},
 	];
+
 	return (
 		<PageContainer>
 			<ProTable<API.RuleListItem, API.PageParams>
 				headerTitle={'查询表格'}
 				actionRef={actionRef}
-				rowKey="key"
+				// rowKey="key"
 				search={{
 					labelWidth: 120,
 				}}
@@ -404,33 +405,6 @@ const TableList: React.FC = () => {
 					<Button type="primary">批量审批</Button>
 				</FooterToolbar>
 			)}
-			<ModalForm
-				title={'新建规则'}
-				width="400px"
-				open={createModalOpen}
-				onOpenChange={handleModalOpen}
-				onFinish={async (value) => {
-					const success = await handleAdd(value as API.RuleListItem);
-					if (success) {
-						handleModalOpen(false);
-						if (actionRef.current) {
-							actionRef.current.reload();
-						}
-					}
-				}}
-			>
-				<ProFormText
-					rules={[
-						{
-							required: true,
-							message: '规则名称为必填项',
-						},
-					]}
-					width="md"
-					name="name"
-				/>
-				<ProFormTextArea width="md" name="desc" />
-			</ModalForm>
 			<UpdateModal
 				colums={columns}
 				onSubmit={async (value) => {
