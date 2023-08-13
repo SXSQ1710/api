@@ -38,10 +38,12 @@ public class SxApiClient {
     public Map<String, String> getHeadMap(String body) {
         Map<String, String> hashMap = new HashMap<>();
         hashMap.put("accessKey", accessKey);
-        hashMap.put("secretKey", secretKey);
+        // 创建随机数
         hashMap.put("nonce", RandomUtil.randomNumbers(4));
         hashMap.put("body", body);
+        // 加入时间戳
         hashMap.put("timestamp", String.valueOf(System.currentTimeMillis() / 1000));
+        // 通过secretKey加密body
         hashMap.put("sign", SignUtils.getSign(body, secretKey));
         return hashMap;
     }
@@ -49,7 +51,7 @@ public class SxApiClient {
 
     public String getUsernameByPost(User user) {
         String json = JSONUtil.toJsonStr(user);
-        HttpResponse execute = HttpRequest.post("http://localhost:8123/api/name/user")
+        HttpResponse execute = HttpRequest.post("http://localhost:8090/api/name/user")
                 .addHeaders(getHeadMap(json))
                 .body(json)
                 .execute();

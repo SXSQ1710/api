@@ -33,7 +33,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/interfaceInfo")
-@Slf4j
+
 public class InterfaceInfoController {
 
     @Resource
@@ -253,6 +253,7 @@ public class InterfaceInfoController {
     }
 
     /**
+     * 调用接口
      *
      * @param interfaceInfoInvokeRequest
      * @param request
@@ -264,6 +265,7 @@ public class InterfaceInfoController {
             throw new BusinessException(ErrorCode.PARAMS_ERROR);
         }
         Long id = interfaceInfoInvokeRequest.getId();
+        // 获取用户请求参数
         String userRequestParams = interfaceInfoInvokeRequest.getUserRequestParams();
         // 判断接口是否存在
         InterfaceInfo interfaceInfo = interfaceInfoService.getById(id);
@@ -274,16 +276,15 @@ public class InterfaceInfoController {
         if(interfaceInfo.getStatus() == InterfaceInfoStatusEnum.OFFLINE.getValue()){
             throw new BusinessException(ErrorCode.PARAMS_ERROR, "接口已关闭");
         }
+        // 获取后端中保留的用户session中的用户信息
         User loginUser = userService.getLoginUser(request);
+        // 获取用户的ak、sk
         String accessKey = loginUser.getAccessKey();
         String secretKey = loginUser.getSecretKey();
         Gson gson = new Gson();
+        // 创建接口调用客户端
         SxApiClient sxApiClient = new SxApiClient(accessKey, secretKey);
-        System.out.println(userRequestParams);
-        System.out.println("================================");
         com.sxsq.sxclientsdk.model.User user = gson.fromJson(userRequestParams, com.sxsq.sxclientsdk.model.User.class);
-        System.out.println(user.getUsername());
-        System.out.println("================================");
         String usernameByPost = sxApiClient.getUsernameByPost(user);
         return ResultUtils.success(usernameByPost);
     }

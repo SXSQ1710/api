@@ -27,112 +27,36 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7fc9a48-f18b-4de1-871d-7d8b29d7cf85" name="默认的" comment="0808">
-      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/controller/BlackWhiteListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/mapper/SystemBlacklistMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/mapper/SystemWhitelistMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/blackList/BlackListAddRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/blackList/BlackListQueryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/blackList/BlackListUpdateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/whiteList/WhiteListAddRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/whiteList/WhiteListQueryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/dto/whiteList/WhiteListUpdateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/entity/SystemBlacklist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/model/entity/SystemWhitelist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/service/SystemBlacklistService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/service/SystemWhitelistService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/service/impl/SystemBlacklistServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/service/impl/SystemWhitelistServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/utils/IpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-view/src/pages/Admin/BlackWhiteList/components/CreateModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-view/src/pages/Admin/BlackWhiteList/components/UpdateModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-view/src/pages/Admin/BlackWhiteList/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/blackWhiteListController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/userInterfaceInfoController.ts" afterDir="false" />
+    <list default="true" id="c7fc9a48-f18b-4de1-871d-7d8b29d7cf85" name="默认的" comment="0809">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/provider/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/provider/DemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-gateway/src/main/java/com/sxsq/project/provider/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-gateway/src/main/java/com/sxsq/project/sxgateway/CustomGlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-gateway/src/main/java/com/sxsq/project/sxgateway/SxGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sx-gateway/src/main/java/com/sxsq/project/sxgateway/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_8_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_63.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_63.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_63.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-backend/sql/interface_info.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/sql/interface_info.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/service/impl/InterfaceInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/service/impl/InterfaceInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/MyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/controller/InterfaceInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/java/com/SXSQ/project/controller/InterfaceInfoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sx-backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sx-backend/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-interface/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sx-interface/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/config/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/config/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/config/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/config/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/pages/Admin/InterfaceInfo/components/CreateModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/pages/Admin/InterfaceInfo/components/CreateModal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/pages/Admin/InterfaceInfo/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/pages/Admin/InterfaceInfo/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/sx-api/basicErrorController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/basicErrorController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/sx-api/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/sx-api/interfaceInfoController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/interfaceInfoController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/sx-api/postController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/postController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/sx-api/typings.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/typings.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sx-view/src/services/sx-api/userController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sx-view/src/services/sx-api/userController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-client-sdk/src/main/java/com/sxsq/sxclientsdk/client/SxApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/sx-client-sdk/src/main/java/com/sxsq/sxclientsdk/client/SxApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sx-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-gateway/src/main/java/com/sxsq/sxgateway/CustomGlobalFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-gateway/src/main/java/com/sxsq/sxgateway/SxGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sx-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sx-gateway/src/test/java/com/sxsq/sxgateway/SxGatewayApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,48 +91,53 @@
   </component>
   <component name="ProjectId" id="2TIGEYq1kkfQXmdMYrkMmKMvJO7" />
   <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="2" id="新增" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/javaProject/api/sx-backend/src/main/java/com/SXSQ/project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "15c62d7eb241eb560e7720fc51d68232",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sx-common" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.34367815" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\javaProject\api\sx-backend\src\main\java\com\SXSQ\project" />
-      <recent name="D:\javaProject\api\sx-backend\src\main\java\com\SXSQ\project\mapper" />
-      <recent name="D:\javaProject\api\sx-backend\src\main\java\com\SXSQ\project\model\entity" />
-      <recent name="D:\javaide\api\sx-backend\src\main\java\com\SXSQ\project" />
-      <recent name="D:\javaide\api\sx-backend\src\main\java\com\SXSQ\project\service" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\javaide\api\sx-backend\src\main\java\com\SXSQ\project\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sxsq.sxgateway.provider" />
+      <recent name="com.SXSQ.project.provider" />
       <recent name="com.SXSQ.project.model.dto.whiteList" />
       <recent name="com.SXSQ.project.model.dto.blackList" />
       <recent name="com.SXSQ.project.controller" />
-      <recent name="com.SXSQ.project.model.dto.userInterfaceInfo" />
-      <recent name="com.SXSQ.project.model.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaide\api" />
+      <recent name="D:\javaProject\api\sx-backend\src\main\java\com\SXSQ\project" />
+      <recent name="D:\javaProject\api\sx-backend\src\main\java\com\SXSQ\project\mapper" />
+      <recent name="D:\javaProject\api\sx-backend\src\main\java\com\SXSQ\project\model\entity" />
+      <recent name="D:\javaide\api\sx-backend\src\main\java\com\SXSQ\project" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -218,13 +147,26 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MyApplication">
+  <component name="RunManager" selected="Spring Boot.SxGatewayApplication">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sxsq.sxinterface.Main" />
       <module name="sx-interface" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sxsq.sxinterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sxsq.sxgateway.Test" />
+      <module name="sx-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sxsq.sxgateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,16 +187,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ddl.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/sx-backend/sql/ddl.sql" />
-      <script-mode>FILE</script-mode>
-      <data-source id="d29b0680-8469-46e4-a351-c4ff32c690ed" />
-      <method v="2" />
-    </configuration>
     <configuration name="interface_info.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/sx-backend/sql/interface_info.sql" />
       <script-mode>FILE</script-mode>
       <data-source id="d29b0680-8469-46e4-a351-c4ff32c690ed" />
+      <data-source id="461e48bf-f1ee-45c8-9220-482b70e43106" />
       <method v="2" />
     </configuration>
     <configuration name="SxInterfaceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -282,7 +219,8 @@
     </configuration>
     <configuration name="SxGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sx-gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sxsq.sxgateway.SxGatewayApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SXSQ.project.sxgateway.SxGatewayApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -301,20 +239,20 @@
       <item itemvalue="Spring Boot.SxGatewayApplication" />
       <item itemvalue="应用程序.com.SXSQ.project.Main" />
       <item itemvalue="应用程序.Main" />
-      <item itemvalue="数据库脚本.ddl.sql" />
+      <item itemvalue="应用程序.Test" />
       <item itemvalue="数据库脚本.interface_info.sql" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.com.SXSQ.project.Main" />
         <item itemvalue="数据库脚本.interface_info.sql" />
+        <item itemvalue="应用程序.Test" />
+        <item itemvalue="应用程序.com.SXSQ.project.Main" />
         <item itemvalue="JUnit.SxInterfaceApplicationTests.contextLoads" />
         <item itemvalue="应用程序.Main" />
-        <item itemvalue="数据库脚本.ddl.sql" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="应用程序级" UseSingleDictionary="true" />
   <component name="SpringBootOptions">
     <option name="showAdditionalConfigNotification" value="false" />
   </component>
@@ -354,6 +292,17 @@
       <workItem from="1691504892009" duration="3104000" />
       <workItem from="1691508033946" duration="2123000" />
       <workItem from="1691546347814" duration="11707000" />
+      <workItem from="1691671127432" duration="3961000" />
+      <workItem from="1691760859588" duration="807000" />
+      <workItem from="1691805837342" duration="4269000" />
+      <workItem from="1691826007728" duration="4512000" />
+      <workItem from="1691841413683" duration="3160000" />
+      <workItem from="1691892587978" duration="568000" />
+      <workItem from="1691893188085" duration="633000" />
+      <workItem from="1691916567160" duration="1960000" />
+      <workItem from="1691919938042" duration="3735000" />
+      <workItem from="1691936940036" duration="1088000" />
+      <workItem from="1691938347597" duration="700000" />
     </task>
     <task id="LOCAL-00001" summary="前端修改">
       <created>1690818762139</created>
@@ -401,7 +350,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -413,6 +362,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -422,5 +372,102 @@
     <MESSAGE value="0806" />
     <MESSAGE value="0807" />
     <option name="LAST_COMMIT_MESSAGE" value="0807" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1691922884268">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691922884268" />
+    <state x="827" y="332" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1691922882218">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="827" y="332" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691922882218" />
+    <state x="660" y="186" key="#interface_info.sql" timestamp="1691832748782">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="660" y="186" key="#interface_info.sql/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691832748782" />
+    <state x="440" y="114" key="#项目结构" timestamp="1691938120845">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="440" y="114" key="#项目结构/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691938120845" />
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1691938368265">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="295" key="FileChooserDialogImpl/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691938368265" />
+    <state width="1469" height="131" key="GridCell.Tab.0.bottom" timestamp="1691923712804">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1469" height="131" key="GridCell.Tab.0.bottom/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691923712804" />
+    <state width="1469" height="131" key="GridCell.Tab.0.center" timestamp="1691923712804">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1469" height="131" key="GridCell.Tab.0.center/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691923712804" />
+    <state width="1469" height="131" key="GridCell.Tab.0.left" timestamp="1691923712804">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1469" height="131" key="GridCell.Tab.0.left/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691923712804" />
+    <state width="1469" height="131" key="GridCell.Tab.0.right" timestamp="1691923712804">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1469" height="131" key="GridCell.Tab.0.right/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691923712804" />
+    <state width="1469" height="131" key="GridCell.Tab.1.bottom" timestamp="1691923712804">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1469" height="131" key="GridCell.Tab.1.bottom/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691923712804" />
+    <state width="1469" height="131" key="GridCell.Tab.1.center" timestamp="1691923712804">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1469" height="131" key="GridCell.Tab.1.center/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691923712804" />
+    <state width="1469" height="131" key="GridCell.Tab.1.left" timestamp="1691923712804">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1469" height="131" key="GridCell.Tab.1.left/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691923712804" />
+    <state width="1469" height="131" key="GridCell.Tab.1.right" timestamp="1691923712804">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1469" height="131" key="GridCell.Tab.1.right/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691923712804" />
+    <state width="152" height="539" key="HiddenNamespacesPopup" timestamp="1691673066499">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="152" height="539" key="HiddenNamespacesPopup/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691673066499" />
+    <state x="614" y="157" key="NewModule_or_Project.wizard" timestamp="1691938371928">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="614" y="157" key="NewModule_or_Project.wizard/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691938371928" />
+    <state x="440" y="114" key="SettingsEditor" timestamp="1691938393860">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="440" y="114" key="SettingsEditor/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691938393860" />
+    <state x="759" y="317" key="chooseDestDirectoryDialog" timestamp="1691922783538">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="759" y="317" key="chooseDestDirectoryDialog/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691922783538" />
+    <state x="578" y="154" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1691597896993">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="578" y="154" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691597896993" />
+    <state x="780" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1691671324077">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="780" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691671324077" />
+    <state x="387" y="154" key="new project wizard" timestamp="1691938304315">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="387" y="154" key="new project wizard/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691938304315" />
+    <state x="624" y="254" key="run.anything.popup" timestamp="1691808982210">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="624" y="254" key="run.anything.popup/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1691808982210" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sx-gateway/src/main/java/com/SXSQ/project/sxgateway/Test.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

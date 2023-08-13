@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/sx-interface/pom.xml" />
         <option value="$PROJECT_DIR$/sx-client-sdk/pom.xml" />
         <option value="$PROJECT_DIR$/sx-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/sx-common/pom.xml" />
       </list>
     </option>
   </component>

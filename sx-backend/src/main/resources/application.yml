@@ -23,6 +23,16 @@ spring:
     host: 121.41.59.165
     database: 8
     password: q.13824101958
+
+dubbo:
+  application:
+    name: dubbo-springboot-demo-provider
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://localhost:8848
+
 server:
   port: 7529
   servlet:
