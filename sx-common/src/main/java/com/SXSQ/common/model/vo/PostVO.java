@@ -1,4 +1,4 @@
-package com.SXSQ.project.model.vo;
+package com.SXSQ.common.model.vo;
 
 import com.SXSQ.common.model.entity.Post;
 import lombok.Data;

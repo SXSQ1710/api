@@ -1,6 +1,6 @@
 package com.SXSQ.project.service;
 
-import com.SXSQ.project.model.entity.User;
+import com.SXSQ.common.model.entity.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -3,7 +3,7 @@ package com.SXSQ.project.service.impl;
 import com.SXSQ.project.common.ErrorCode;
 import com.SXSQ.project.exception.BusinessException;
 import com.SXSQ.project.mapper.SystemWhitelistMapper;
-import com.SXSQ.project.model.entity.SystemWhitelist;
+import com.SXSQ.common.model.entity.SystemWhitelist;
 import com.SXSQ.project.service.SystemWhitelistService;
 import com.SXSQ.project.utils.IpUtil;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

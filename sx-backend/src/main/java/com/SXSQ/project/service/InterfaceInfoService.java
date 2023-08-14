@@ -1,6 +1,6 @@
 package com.SXSQ.project.service;
 
-import com.SXSQ.project.model.entity.InterfaceInfo;
+import com.SXSQ.common.model.entity.InterfaceInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 

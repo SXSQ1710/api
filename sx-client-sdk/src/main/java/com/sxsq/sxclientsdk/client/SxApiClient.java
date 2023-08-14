@@ -1,11 +1,11 @@
-package com.sxsq.sxclientsdk.client;
+package com.SXSQ.sxclientsdk.client;
 
 import cn.hutool.core.util.RandomUtil;
 import cn.hutool.http.HttpRequest;
 import cn.hutool.http.HttpResponse;
 import cn.hutool.json.JSONUtil;
-import com.sxsq.sxclientsdk.model.User;
-import com.sxsq.sxclientsdk.utils.SignUtils;
+import com.SXSQ.sxclientsdk.model.User;
+import com.SXSQ.sxclientsdk.utils.SignUtils;
 import lombok.Data;
 
 import java.util.HashMap;

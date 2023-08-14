@@ -1,12 +1,12 @@
 package com.SXSQ.project.service.impl;
 
-import com.SXSQ.project.model.enums.PostGenderEnum;
-import com.SXSQ.project.model.enums.PostReviewStatusEnum;
+import com.SXSQ.common.model.enums.PostGenderEnum;
+import com.SXSQ.common.model.enums.PostReviewStatusEnum;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.SXSQ.project.common.ErrorCode;
 import com.SXSQ.project.exception.BusinessException;
 import com.SXSQ.project.mapper.PostMapper;
-import com.SXSQ.project.model.entity.Post;
+import com.SXSQ.common.model.entity.Post;
 import com.SXSQ.project.service.PostService;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;

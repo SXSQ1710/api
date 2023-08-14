@@ -2,7 +2,7 @@ package com.SXSQ.project.aop;
 
 import com.SXSQ.project.annotation.AuthCheck;
 import com.SXSQ.project.exception.BusinessException;
-import com.SXSQ.project.model.entity.User;
+import com.SXSQ.common.model.entity.User;
 import com.SXSQ.project.service.UserService;
 import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
 import com.SXSQ.project.common.ErrorCode;

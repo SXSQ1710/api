@@ -1,5 +1,6 @@
 package com.SXSQ.project.controller;
 
+import com.SXSQ.common.model.enums.InterfaceInfoStatusEnum;
 import com.SXSQ.project.annotation.AuthCheck;
 import com.SXSQ.project.common.*;
 import com.SXSQ.project.constant.CommonConstant;
@@ -8,16 +9,14 @@ import com.SXSQ.project.model.dto.interfaceInfo.InterfaceInfoAddRequest;
 import com.SXSQ.project.model.dto.interfaceInfo.InterfaceInfoInvokeRequest;
 import com.SXSQ.project.model.dto.interfaceInfo.InterfaceInfoQueryRequest;
 import com.SXSQ.project.model.dto.interfaceInfo.InterfaceInfoUpdateRequest;
-import com.SXSQ.project.model.entity.InterfaceInfo;
-import com.SXSQ.project.model.entity.User;
-import com.SXSQ.project.model.enums.InterfaceInfoStatusEnum;
+import com.SXSQ.common.model.entity.InterfaceInfo;
+import com.SXSQ.common.model.entity.User;
 import com.SXSQ.project.service.InterfaceInfoService;
 import com.SXSQ.project.service.UserService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.google.gson.Gson;
-import com.sxsq.sxclientsdk.client.SxApiClient;
-import lombok.extern.slf4j.Slf4j;
+import com.SXSQ.sxclientsdk.client.SxApiClient;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.*;
@@ -284,7 +283,7 @@ public class InterfaceInfoController {
         Gson gson = new Gson();
         // 创建接口调用客户端
         SxApiClient sxApiClient = new SxApiClient(accessKey, secretKey);
-        com.sxsq.sxclientsdk.model.User user = gson.fromJson(userRequestParams, com.sxsq.sxclientsdk.model.User.class);
+        com.SXSQ.sxclientsdk.model.User user = gson.fromJson(userRequestParams, com.SXSQ.sxclientsdk.model.User.class);
         String usernameByPost = sxApiClient.getUsernameByPost(user);
         return ResultUtils.success(usernameByPost);
     }

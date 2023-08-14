@@ -1,4 +1,4 @@
-package com.sxsq.sxclientsdk.model;
+package com.SXSQ.sxclientsdk.model;
 
 import lombok.Data;
 

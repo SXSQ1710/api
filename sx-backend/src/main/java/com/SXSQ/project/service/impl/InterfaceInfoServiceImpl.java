@@ -1,12 +1,9 @@
 package com.SXSQ.project.service.impl;
 
+import com.SXSQ.common.model.entity.InterfaceInfo;
 import com.SXSQ.project.common.ErrorCode;
 import com.SXSQ.project.exception.BusinessException;
 import com.SXSQ.project.mapper.InterfaceInfoMapper;
-import com.SXSQ.project.model.entity.InterfaceInfo;
-import com.SXSQ.project.model.entity.Post;
-import com.SXSQ.project.model.enums.PostGenderEnum;
-import com.SXSQ.project.model.enums.PostReviewStatusEnum;
 import com.SXSQ.project.service.InterfaceInfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.apache.commons.lang3.ObjectUtils;
@@ -19,11 +16,7 @@ import java.util.Date;
  *
  */
 @Service
-public class
-
-
-
-InterfaceInfoServiceImpl extends ServiceImpl<InterfaceInfoMapper, InterfaceInfo>
+public class InterfaceInfoServiceImpl extends ServiceImpl<InterfaceInfoMapper, InterfaceInfo>
         implements InterfaceInfoService {
 
     @Override

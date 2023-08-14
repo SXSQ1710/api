@@ -1,6 +1,6 @@
 package com.SXSQ.project.service;
 
-import com.SXSQ.project.model.entity.SystemBlacklist;
+import com.SXSQ.common.model.entity.SystemBlacklist;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

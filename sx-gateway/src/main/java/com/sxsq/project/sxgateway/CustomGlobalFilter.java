@@ -1,17 +1,22 @@
 package com.SXSQ.project.sxgateway;
 
-import com.sxsq.sxclientsdk.utils.SignUtils;
+import com.SXSQ.common.model.entity.InterfaceInfo;
+import com.SXSQ.common.model.entity.User;
+import com.SXSQ.common.service.InnerInterfaceInfoService;
+import com.SXSQ.common.service.InnerUserInterfaceInfoService;
+import com.SXSQ.common.service.InnerUserService;
+import com.SXSQ.sxclientsdk.utils.SignUtils;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.dubbo.config.annotation.DubboReference;
 import org.reactivestreams.Publisher;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.Ordered;
 import org.springframework.core.io.buffer.DataBuffer;
 import org.springframework.core.io.buffer.DataBufferFactory;
 import org.springframework.core.io.buffer.DataBufferUtils;
 import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.server.reactive.ServerHttpRequest;
 import org.springframework.http.server.reactive.ServerHttpResponse;
@@ -35,6 +40,13 @@ import java.util.*;
 @Component
 public class CustomGlobalFilter implements GlobalFilter, Ordered {
 
+    @DubboReference
+    private InnerInterfaceInfoService innerInterfaceInfoService;
+    @DubboReference
+    private InnerUserInterfaceInfoService innerUserInterfaceInfoService;
+    @DubboReference
+    private InnerUserService innerUserService;
+
     private static final List<String> IP_WHITE_LIST = Collections.singletonList("127.0.1.1");
 
     /**
@@ -49,10 +61,12 @@ public class CustomGlobalFilter implements GlobalFilter, Ordered {
         ServerHttpRequest request = exchange.getRequest();
         ServerHttpResponse response = exchange.getResponse();
 
+        String path = request.getPath().value();
+        String method = Objects.requireNonNull(request.getMethod()).toString();
         // 1. 请求日志
         log.info("请求唯一标识：" + request.getId());
-        log.info("请求路径：" + request.getPath().value());
-        log.info("请求方法：" + request.getMethod());
+        log.info("请求路径：" + path);
+        log.info("请求方法：" + method);
         log.info("请求参数：" + request.getQueryParams());
         String hostString = Objects.requireNonNull(request.getRemoteAddress()).getHostString();
         log.info("请求来源地址：" + hostString);
@@ -79,9 +93,26 @@ public class CustomGlobalFilter implements GlobalFilter, Ordered {
             return handNoAuth(response);
         }
 
-        // todo 从数据库中查询用户的secretKey
-        final String secretKey = "3d6e7cd87ff3482c93a69f03088ace2a";
-        if (sign == null || !sign.equals(SignUtils.getSign(body,secretKey))){
+        // todo 从数据库中查询用户的secretKey（缓存升级）
+        User user = null;
+        try {
+            user = innerUserService.getInvokeUser(accessKey);
+        } catch (Exception e) {
+            log.error("getInvokeUser error: ", e);
+        }
+        // 验证签名是否合法
+        if (sign == null || user == null || !sign.equals(SignUtils.getSign(body, user.getSecretKey()))) {
+            return handNoAuth(response);
+        }
+
+        InterfaceInfo interfaceInfo = null;
+        try {
+            interfaceInfo = innerInterfaceInfoService.getInterfaceInfo(path, method);
+        } catch (Exception e) {
+            log.error("getInvokeUser error: ", e);
+        }
+        // todo 检验请求接口是否存在（缓存升级）
+        if (interfaceInfo == null) {
             return handNoAuth(response);
         }
 
@@ -90,7 +121,7 @@ public class CustomGlobalFilter implements GlobalFilter, Ordered {
 //        return chain.filter(exchange);
     }
 
-    public Mono<Void> responseLogGlobalFilter (ServerWebExchange exchange, GatewayFilterChain chain){
+    public Mono<Void> responseLogGlobalFilter(ServerWebExchange exchange, GatewayFilterChain chain) {
         try {
             ServerHttpResponse originalResponse = exchange.getResponse();
             // 缓存数据
@@ -98,7 +129,7 @@ public class CustomGlobalFilter implements GlobalFilter, Ordered {
             // 拿到响应码
             HttpStatus statusCode = originalResponse.getStatusCode();
 
-            if(statusCode == HttpStatus.OK){
+            if (statusCode == HttpStatus.OK) {
                 // 进行装饰
                 ServerHttpResponseDecorator decoratedResponse = new ServerHttpResponseDecorator(originalResponse) {
                     @Override
@@ -131,7 +162,7 @@ public class CustomGlobalFilter implements GlobalFilter, Ordered {
                 return chain.filter(exchange.mutate().response(decoratedResponse).build());
             }
             return chain.filter(exchange);//降级处理返回数据
-        }catch (Exception e){
+        } catch (Exception e) {
             log.error("网关处理响应异常" + e);
             return chain.filter(exchange);
         }

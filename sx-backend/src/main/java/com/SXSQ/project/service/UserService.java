@@ -1,7 +1,7 @@
 package com.SXSQ.project.service;
 
 
-import com.SXSQ.project.model.entity.User;
+import com.SXSQ.common.model.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import javax.servlet.http.HttpServletRequest;

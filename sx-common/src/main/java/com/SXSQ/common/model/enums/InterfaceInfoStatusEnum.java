@@ -1,23 +1,22 @@
-package com.SXSQ.project.model.enums;
+package com.SXSQ.common.model.enums;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * 帖子审核状态枚举
+ * 帖子性别枚举
  */
-public enum PostReviewStatusEnum {
+public enum InterfaceInfoStatusEnum {
 
-    REVIEWING("待审核", 0),
-    PASS("通过", 1),
-    REJECT("拒绝", 2);
+    OFFLINE("关闭", 0),
+    ONLINE("上线", 1);
 
     private final String text;
 
     private final int value;
 
-    PostReviewStatusEnum(String text, int value) {
+    InterfaceInfoStatusEnum(String text, int value) {
         this.text = text;
         this.value = value;
     }

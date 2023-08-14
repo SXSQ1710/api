@@ -1,4 +1,4 @@
-package com.SXSQ.project.model.entity;
+package com.SXSQ.common.model.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;

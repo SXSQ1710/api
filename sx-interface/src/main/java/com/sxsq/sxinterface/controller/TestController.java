@@ -1,6 +1,6 @@
 package com.sxsq.sxinterface.controller;
 
-import com.sxsq.sxclientsdk.model.User;
+import com.SXSQ.sxclientsdk.model.User;
 import com.sxsq.sxinterface.utils.SignUtils;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,9 +23,9 @@ public class TestController {
         String body = request.getHeader("body");
         String sign = request.getHeader("sign");
 
-        if (!sign.equals(SignUtils.getSign(body,secretKey))){
-            System.out.println("error");
-        }
+//        if (!sign.equals(SignUtils.getSign(body,secretKey))){
+//            System.out.println("error");
+//        }
         return "用户是："+ user.getUsername();
     }
 

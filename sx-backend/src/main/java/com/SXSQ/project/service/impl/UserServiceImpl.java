@@ -6,7 +6,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.SXSQ.project.common.ErrorCode;
 import com.SXSQ.project.exception.BusinessException;
 import com.SXSQ.project.mapper.UserMapper;
-import com.SXSQ.project.model.entity.User;
+import com.SXSQ.common.model.entity.User;
 import com.SXSQ.project.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;

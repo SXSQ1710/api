@@ -1,7 +1,7 @@
 package com.sxsq.sxinterface;
 
-//import com.sxsq.sxinterface.client.SxApiClient;
-//import com.sxsq.sxinterface.model.User;
+//import com.SXSQ.sxinterface.client.SxApiClient;
+//import com.SXSQ.sxinterface.model.User;
 import com.alibaba.fastjson.JSON;
 import com.sxsq.sxinterface.ai.Answer;
 import com.sxsq.sxinterface.ai.Choices;
@@ -22,11 +22,8 @@ import org.apache.http.util.EntityUtils;
 
 import javax.net.ssl.SSLContext;
 import java.io.IOException;
-import java.io.InputStream;
 import java.net.SocketException;
 import java.net.SocketTimeoutException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.rmi.ServerException;
 import java.security.KeyManagementException;
 import java.security.KeyStoreException;
@@ -34,8 +31,6 @@ import java.security.NoSuchAlgorithmException;
 import java.util.List;
 import java.util.Properties;
 import java.util.Scanner;
-
-import com.theokanning.openai.OpenAiService;
 
 /**
  * @title: Main

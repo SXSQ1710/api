@@ -1,6 +1,6 @@
 package com.SXSQ.project.mapper;
 
-import com.SXSQ.project.model.entity.SystemWhitelist;
+import com.SXSQ.common.model.entity.SystemWhitelist;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

@@ -1,13 +1,11 @@
 package com.SXSQ.project.service;
 
-import com.SXSQ.project.model.entity.InterfaceInfo;
-import com.SXSQ.project.model.entity.UserInterfaceInfo;
+import com.SXSQ.common.model.entity.UserInterfaceInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
-
-/**
- *
- */
 public interface UserInterfaceInfoService extends IService<UserInterfaceInfo> {
-    void validUserInterfaceInfo(UserInterfaceInfo userInterfaceInfo, boolean b);
+
+    public void validUserInterfaceInfo(com.SXSQ.common.model.entity.UserInterfaceInfo userInterfaceInfo, boolean add);
+
+    public boolean invokeCount(long interfaceInfoId, long userId);
 }

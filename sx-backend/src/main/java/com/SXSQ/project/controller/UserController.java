@@ -2,7 +2,7 @@ package com.SXSQ.project.controller;
 
 import com.SXSQ.project.exception.BusinessException;
 import com.SXSQ.project.model.dto.user.*;
-import com.SXSQ.project.model.entity.User;
+import com.SXSQ.common.model.entity.User;
 import com.SXSQ.project.model.vo.UserVO;
 import com.SXSQ.project.service.UserService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
@@ -12,8 +12,6 @@ import com.SXSQ.project.common.BaseResponse;
 import com.SXSQ.project.common.DeleteRequest;
 import com.SXSQ.project.common.ErrorCode;
 import com.SXSQ.project.common.ResultUtils;
-import com.SXSQ.project.model.dto.*;
-import com.SXSQ.project.model.dto.user.*;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.*;

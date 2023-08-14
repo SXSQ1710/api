@@ -1,4 +1,4 @@
-package com.sxsq.sxclientsdk.utils;
+package com.SXSQ.sxclientsdk.utils;
 
 import cn.hutool.crypto.digest.DigestAlgorithm;
 import cn.hutool.crypto.digest.Digester;

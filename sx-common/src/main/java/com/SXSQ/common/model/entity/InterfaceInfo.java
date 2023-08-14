@@ -1,8 +1,7 @@
-package com.SXSQ.project.model.entity;
+package com.SXSQ.common.model.entity;
 
-import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
-
+import com.baomidou.mybatisplus.annotation.*;
 import java.io.Serializable;
 import java.util.Date;
 
