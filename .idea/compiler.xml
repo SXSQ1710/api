@@ -8,9 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sx-gateway" />
-        <module name="sx-client-sdk" />
-        <module name="sx-backend" />
         <module name="sx-common" />
+        <module name="sx-backend" />
+        <module name="sx-client-sdk" />
         <module name="sx-interface" />
       </profile>
     </annotationProcessing>

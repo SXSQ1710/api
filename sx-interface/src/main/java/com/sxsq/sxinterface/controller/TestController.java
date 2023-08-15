@@ -1,4 +1,4 @@
-package com.sxsq.sxinterface.controller;
+package com.SXSQ.sxinterface.controller;
 
 import com.SXSQ.sxclientsdk.model.User;
 import com.sxsq.sxinterface.utils.SignUtils;

@@ -17,6 +17,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.google.gson.Gson;
 import com.SXSQ.sxclientsdk.client.SxApiClient;
+import com.google.gson.JsonSyntaxException;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.*;
@@ -283,7 +284,13 @@ public class InterfaceInfoController {
         Gson gson = new Gson();
         // 创建接口调用客户端
         SxApiClient sxApiClient = new SxApiClient(accessKey, secretKey);
-        com.SXSQ.sxclientsdk.model.User user = gson.fromJson(userRequestParams, com.SXSQ.sxclientsdk.model.User.class);
+
+        com.SXSQ.sxclientsdk.model.User user = null;
+        try {
+            user = gson.fromJson(userRequestParams, com.SXSQ.sxclientsdk.model.User.class);
+        } catch (JsonSyntaxException e) {
+            throw new BusinessException(ErrorCode.PARAMS_ERROR,"请求参数错误！");
+        }
         String usernameByPost = sxApiClient.getUsernameByPost(user);
         return ResultUtils.success(usernameByPost);
     }

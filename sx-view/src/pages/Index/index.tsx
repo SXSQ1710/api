@@ -56,7 +56,7 @@ const Index: React.FC = () => {
           // content: {},
           actions: {},
         }}
-        headerTitle="翻页"
+        headerTitle="接口信息"
         dataSource={list.map((item) => ({
           title: <a key={item.id} href={`/interface_info/${item.id}`}>{item.name}</a>,
           subTitle: <Tag color="#5BD8A6">已上线</Tag>,

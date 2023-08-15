@@ -42,10 +42,10 @@ const Index: React.FC = () => {
     if (!params.id) {
       message.error('参数不存在');
     }
-
+    let res: any;
     try {
       setInvokeLoading(true);
-      const res = await invokeInterfaceUsingPOST({
+      res = await invokeInterfaceUsingPOST({
         id: params.id,
         ...values,
       });
@@ -53,6 +53,7 @@ const Index: React.FC = () => {
       setInvokeRes(res.data);
     } catch (error: any) {
       message.error('操作失败' + error.message);
+      setInvokeRes(error.message);
     }
     setInvokeLoading(false);
   }
@@ -64,7 +65,6 @@ const Index: React.FC = () => {
           column={1}
           title={data?.name}
           tooltip="接口信息详情"
-          extra={<Button>调用</Button>}
         >
           <ProDescriptions.Item label="描述">{data?.description}</ProDescriptions.Item>
           <ProDescriptions.Item label="请求方法">{data?.method}</ProDescriptions.Item>
